@@ -1,0 +1,30 @@
+.root {
+  width: 100%;
+  display: flex;
+  flex: content;
+  justify-content: center;
+  align-content: center;
+}
+
+button {
+  user-select: none;
+  margin-top: 100px;
+  padding: 8px 12px;
+  background: #dfa7df;
+  border: 0;
+  border-bottom: 5px solid #a57ca5;
+  border-left: 1px solid #a57ca5;
+  border-radius: 2px;
+  color: #684e68;
+  cursor: pointer;
+  position: relative;
+}
+
+button:active {
+  border-bottom-width: 2px;
+  top: 3px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
